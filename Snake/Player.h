@@ -8,4 +8,3 @@ struct Player
     uint8_t tailLength;
     bool alive;
 };
-Player snake = { 0, 20, 20, 10, true };

@@ -13,6 +13,9 @@ enum class GameState : uint8_t
 };
 GameState gameState = GameState::Menu;
 
+#include "Player.h"
+Player snake = { 0, 20, 20, 10, true };
+
 #include "MenuState.h"
 MenuState menuState;
 
